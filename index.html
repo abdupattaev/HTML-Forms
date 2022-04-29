@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML FORM</title>
+    <link href="styleme.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+        <h1 id="logo"><span id="neard">nerd</span><span id="luv">Luv<sup>tm</sup></span></h1>
+        <p id="slogan">where meek geeks meet</p>
+
+    <section class="col-center marg-2">
+        <form method="GET" action="http://mumstudents.org/params.php">
+            <legend style="border-color:rgb(75, 236, 26);">New User Signup</legend>
+            <div class="p-2">
+                <div class="row left">
+                    <div class="col-quar">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-center">
+                        <input type="text" name="name2" maxlength="16">
+                    </div>
+                </div>
+                <div class="row left">
+                    <div class="col-quar">
+                        <label>Gender:</label>
+                    </div>
+                    <div class="col-quar2 left">
+                        <div class="col-quar">
+                            <input type="radio" name="entry" id="Male">
+                            <label for="Male">Male</label>
+                        </div>
+                        <div class="col-quar">
+                            <input type="radio" name="entry" value="Female">
+                            <label>Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row left">
+                    <div class="col-quar">
+                        <label>Age:</label>
+                    </div>
+                    <div class="col-15">
+                        <input type="text" id="Age" name="Age" maxlength="6" pattern="[0-9]{2}">
+                    </div>
+                </div>
+                <div class="row left">
+                    <div class="col-quar">
+                        <label>Personality type:</label>
+                    </div>
+                    <div class="col-quar2">
+                        <input class="width-20p" type="text" name="name" placeholder="Personality.." pattern="[A-Z]{4}"> (
+                        <a href="http://www.humanmetrics.com/cgi-win.JTypes2.asp" class="red">Don't know your type?</a>)
+                    </div>
+                </div>
+                <div class="row left">
+                    <div class="col-quar">
+                        <label>Favorite OS:</label>
+                    </div>
+                    <div class="col-center">
+                        <select class="width-30p">
+                            <option value="Windows">Windows</option>
+                            <option value="Linux">Linux</option>
+                            <option value="Mac">Mac</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row left">
+                    <div class="col-quar">
+                        <label for="min">Seeking age:</label>
+                    </div>
+                    <div class="col-quar2">
+                        <input class="width-20p" type="text" id="min" name="min" placeholder="min" maxlength="6"
+                            pattern="[0-9]{2}">
+                        to
+                        <input class="width-20p" type="text" id="max" name="max" placeholder="max" maxlength="6"
+                            pattern="[0-9]{2}">
+                    </div>
+                </div>
+                <div class="row left mt-5p">
+                    <div class="col-quar">
+                        <input type="submit" value="Sign Up" />
+                    </div>
+                </div>
+            </div>
+        </form>
+        <br>
+        <p>This page is for single nerds to meet and date each other! Type in your personal information and wait for the nerdly luv to begin!<br /> Thank you for using our site. </p>
+        <p>Results and page (C) Copyright NerdLuv Inc.</p>
+        <div class="back">
+            <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-back-web-flaticons-flat-flat-icons.png"
+                width="20" height="20"><a href=""> Back to front page</a>
+        </div>
+        <br>
+        <br>
+        <a href="https://validator.w3.org/nu/?doc=https://sardor979bek.github.io/HTML-Forms"> <img
+            src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a>
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://sardor979bek.github.io/HTML-Forms/styleme.css">
+            <img alt="link image" src="https://manalabs.org/img/w3c-css.png" />
+        </a>
+    </section>
+
+</body>
+
+</html>
