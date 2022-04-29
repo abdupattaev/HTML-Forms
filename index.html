@@ -13,81 +13,83 @@
 
     <section class="col-center marg-2">
         <form method="GET" action="http://mumstudents.org/params.php">
-                <fieldset>
-                    <legend style="border-color:rgb(75, 236, 26);">New User Signup</legend>
-                </fieldset>
-            <div class="p-2">
-                <div class="row left">
-                    <div class="col-quar">
-                        <label for="name">Name:</label>
-                    </div>
-                    <div class="col-center">
-                        <input type="text" name="name2" maxlength="16">
-                    </div>
-                </div>
-                <div class="row left">
-                    <div class="col-quar">
-                        <label>Gender:</label>
-                    </div>
-                    <div class="col-quar2 left">
+            <fieldset>
+                <legend style="border-color:rgb(75, 236, 26);">New User Signup</legend>
+                <div class="p-2">
+                    <div class="row left">
                         <div class="col-quar">
-                            <input type="radio" name="entry" id="Male">
-                            <label for="Male">Male</label>
+                            <label for="name">Name:</label>
                         </div>
-                        <div class="col-quar">
-                            <input type="radio" name="entry" value="Female">
-                            <label>Female</label>
+                        <div class="col-center">
+                            <input type="text" name="name2" maxlength="16">
                         </div>
                     </div>
+                    <div class="row left">
+                        <div class="col-quar">
+                            <label>Gender:</label>
+                        </div>
+                        <div class="col-quar2 left">
+                            <div class="col-quar">
+                                <input type="radio" name="entry" id="Male">
+                                <label for="Male">Male</label>
+                            </div>
+                            <div class="col-quar">
+                                <input type="radio" name="entry" value="Female">
+                                <label>Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row left">
+                        <div class="col-quar">
+                            <label>Age:</label>
+                        </div>
+                        <div class="col-15">
+                            <input type="text" id="Age" name="Age" maxlength="6" pattern="[0-9]{2}">
+                        </div>
+                    </div>
+                    <div class="row left">
+                        <div class="col-quar">
+                            <label>Personality type:</label>
+                        </div>
+                        <div class="col-quar2">
+                            <input class="width-20p" type="text" name="name" placeholder="Personality.."
+                                pattern="[A-Z]{4}">
+                            (
+                            <a href="http://www.humanmetrics.com/cgi-win.JTypes2.asp" class="red">Don't know your
+                                type?</a>)
+                        </div>
+                    </div>
+                    <div class="row left">
+                        <div class="col-quar">
+                            <label>Favorite OS:</label>
+                        </div>
+                        <div class="col-center">
+                            <select class="width-30p">
+                                <option value="Windows">Windows</option>
+                                <option value="Linux">Linux</option>
+                                <option value="Mac">Mac</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row left">
+                        <div class="col-quar">
+                            <label for="min">Seeking age:</label>
+                        </div>
+                        <div class="col-quar2">
+                            <input class="width-20p" type="text" id="min" name="min" placeholder="min" maxlength="6"
+                                pattern="[0-9]{2}">
+                            to
+                            <input class="width-20p" type="text" id="max" name="max" placeholder="max" maxlength="6"
+                                pattern="[0-9]{2}">
+                        </div>
+                    </div>
+                    <div class="row left mt-5p">
+                        <div class="col-quar">
+                            <input type="submit" value="Sign Up" />
+                        </div>
+                    </div>
                 </div>
-                <div class="row left">
-                    <div class="col-quar">
-                        <label>Age:</label>
-                    </div>
-                    <div class="col-15">
-                        <input type="text" id="Age" name="Age" maxlength="6" pattern="[0-9]{2}">
-                    </div>
-                </div>
-                <div class="row left">
-                    <div class="col-quar">
-                        <label>Personality type:</label>
-                    </div>
-                    <div class="col-quar2">
-                        <input class="width-20p" type="text" name="name" placeholder="Personality.." pattern="[A-Z]{4}">
-                        (
-                        <a href="http://www.humanmetrics.com/cgi-win.JTypes2.asp" class="red">Don't know your type?</a>)
-                    </div>
-                </div>
-                <div class="row left">
-                    <div class="col-quar">
-                        <label>Favorite OS:</label>
-                    </div>
-                    <div class="col-center">
-                        <select class="width-30p">
-                            <option value="Windows">Windows</option>
-                            <option value="Linux">Linux</option>
-                            <option value="Mac">Mac</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row left">
-                    <div class="col-quar">
-                        <label for="min">Seeking age:</label>
-                    </div>
-                    <div class="col-quar2">
-                        <input class="width-20p" type="text" id="min" name="min" placeholder="min" maxlength="6"
-                            pattern="[0-9]{2}">
-                        to
-                        <input class="width-20p" type="text" id="max" name="max" placeholder="max" maxlength="6"
-                            pattern="[0-9]{2}">
-                    </div>
-                </div>
-                <div class="row left mt-5p">
-                    <div class="col-quar">
-                        <input type="submit" value="Sign Up" />
-                    </div>
-                </div>
-            </div>
+            </fieldset>
         </form>
         <br>
         <p>This page is for single nerds to meet and date each other! Type in your personal information and wait for the
